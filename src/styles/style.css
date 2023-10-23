@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaa;
+  font-size: 11pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  color: #900C3F;
+}
+
+.note-app {
+  min-height: 100vh;
+}
+
+.note-app__header {
+  padding: 20px;
+}
+
+.note-app__header img {
+  max-width: 140px;
+}
+
+.note-app__header .note-header__search {
+  max-width: 600px;
+}
+
+.note-app__header form button {
+  border-color: #C70039;
+  color : #C70039;
+}
+
+.note-app__body {
+  margin: auto;
+}
+
+.note-app .note-input {
+  max-width: 600px;
+  margin: auto;
+}
+
+.notes-list {
+  padding: 30px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+.notes-list__delete {
+  color: #C70039;
+}
+
+.notes-list__archive {
+  color: #F94C10;
+}
+
+.notes-list__delete:hover {
+  color: #aa0030;
+}
+
+.notes-list__archive:hover {
+  color: #bb3b10;
+}
+
+.bg-level1 {
+  background-color:  #C70039;
+}
